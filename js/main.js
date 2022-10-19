@@ -1,9 +1,26 @@
 
 function clicou(){
-    alert("Obrigado por clicar")
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por Clicar<b>"
+    
+    
+    //console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    window.open("https://www.globo.com"); //abre em outra janela 
+   // window.location.href = "https://www.globo.com"; //abre na mesma aba do clique
+}
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    alert("trocar texto")
 }
 
 
+
+/*function clicou(){
+    alert("obrigado por clicar");
+}
 
 /*
 function soma(n1, n2){
